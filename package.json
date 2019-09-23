@@ -1,0 +1,26 @@
+{
+  "name": "website-navbar-onscroll",
+  "version": "1.0.0",
+  "description": "live demo : https://alaincodes.github.io/website-navbar-onscroll/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaincodes/website-navbar-onscroll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alaincodes/website-navbar-onscroll/issues"
+  },
+  "homepage": "https://github.com/alaincodes/website-navbar-onscroll#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.12"
+  }
+}

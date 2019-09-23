@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.scss" />
     <link
       href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap"
       rel="stylesheet"
@@ -19,6 +19,11 @@
         <li class="nav-link"><a href="#">Blog</a></li>
         <li class="nav-link"><button class="beta-btn">Rejoins Nous</button></li>
       </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </nav>
     <header class="header-box">
       <div>
@@ -32,7 +37,11 @@
         </p>
         <button>Rejoindre</button>
       </div>
-      <img width="500" src="./images/undraw_wine_tasting_30vw.svg" alt="" />
+      <img
+        class="header-img"
+        src="./images/undraw_wine_tasting_30vw.svg"
+        alt=""
+      />
     </header>
     <section class="section-box">
       <div>
@@ -96,7 +105,11 @@
         <p>Degustation vins et bieres du monde.</p>
         <a href="#">Rejoindre</a>
       </div>
-      <img width="500" src="./images/undraw_coffee_break_j3of.svg" alt="" />
+      <img
+        class="preview-img"
+        src="./images/undraw_coffee_break_j3of.svg"
+        alt=""
+      />
     </section>
     <footer class="footer-box">
       <div>
@@ -106,9 +119,9 @@
         </p>
       </div>
       <form action="#">
-        <label for="name">Votre Nom</label>
+        <label for="name">Votre Nom:</label>
         <input type="text" name="name" placeholder="Type your name" />
-        <label for="email">Adresse Email</label>
+        <label for="email">Adresse Email:</label>
         <input type="email" name="email" placeholder="you@yoursite.com" />
         <div>
           <label for="radio">Type d'Etablissement:</label>
@@ -117,7 +130,7 @@
         </div>
         <input type="submit" value="Rejoindre" />
       </form>
-      <p>
+      <p class="footer-illu">
         Illustration by <a target="_blank" href="https://undraw.co/">unDraw</a>
       </p>
     </footer>
